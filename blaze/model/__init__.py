@@ -5,7 +5,7 @@ import torch.nn.functional as F
 
 import blaze
 from blaze import DEFAULT_CLASSES_NUM
-from blaze_block import BlazeBlock
+from blaze.model.block import BlazeBlock
 
 
 class BlazeModel(nn.Module):
